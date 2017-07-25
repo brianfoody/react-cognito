@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AppWrapper {
+  display: flex;
+  position: relative;
+  height: 800px;
+  width: 535px;
+  position: relative;
+}
+
+.AppWrapperCase {
+  flex: 1;
+}
+
+.AppWrapperContent {
+  position: absolute;
+  top: 120px;
+  left: 110px;
+  height: 558px;
+  width: 315px;
+  background: white;
+  display: flex;
+}
